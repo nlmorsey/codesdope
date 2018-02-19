@@ -16,12 +16,8 @@ puts i
 # A loop will run till its condition is getting satisfied or the condition is true. 
 # Initially, 'i' is 1.
 i = 1
-# The condition is i<=10. 
 while i<=10
-    # Thus, the body of while gets executed and 'i*14' i.e., 1*14 (14) gets printed on the screen.
     puts i*14
-    # Increases the value of 'i' by 1, making its value equal to 2.
-    # Again the condition of while loop gets satisfied, since the value of 'i' is 2 this time ( 2 is less than 10 ). 
     i=i+1
     # Loop up to the body above.
 # The while loop will stop when 'i' becomes greater than 10.

@@ -3,12 +3,9 @@
 a = gets.chomp.to_i
 # Here we used 'if'. The condition a>10 is comparing a with 10 and if a is greater than 10, then it is true and if smaller then false.
 if a > 10
-# If a is greater than 10, then it will execute puts "your number is greater than 10."
     puts "Your number is greater than 10"
 else
-# Otherwise it will execute puts "your number not greater than 10."
     puts "Your number is not greater than 10"
-# End at the last of the code indicates the end of 'if' and 'else'. You can also say that it indicates the body of 'if' and 'else'.
 end
 
 # Completes basic math using the numbers assigned to variables a and b.
@@ -45,9 +42,6 @@ else
     puts "ODD"
 end
 
-# Shows nested if and else statements. There are two else-ifs here, one M/F and one <>10000.
-# Firstly, the condition of top-most 'if' will be checked i.e. a > 10000.
-# If it is true, then the statements inside this 'if' will be executed (M vs F). 
 puts "Enter salary"
 a = gets.chomp.to_i
 puts "Enter sex M/F"
@@ -66,14 +60,10 @@ else
     end
 end
 
-# Using elseif is like option A, then option B, then option C, etc. We can have any number of 'elsif' after 'if'.
 puts "Enter salary"
 a = gets.chomp.to_i
 puts "Enter sex M/F"
 b = gets.chomp
-# Firstly, the condition in 'if' will be checked.
-# If this condition is true, then only 'if' will be executed (i.e. its corresponding statement will be executed) and if it is false, then the compiler will check below.
-# If 'if' is false, then the condition in 'elsif' will be checked. In the same way, if this condition is true, then its statements will be executed, otherwise the compiler will come below.
 if a>10000 && b == "M"
     puts "Your salary is good and you are a male"
 elsif a>10000 && b == "F"
@@ -82,7 +72,6 @@ elsif a<10000 && b == "M"
     puts "Your salary is not so good and you are a male"
 elsif a<10000 && b == "F"
     puts "Your salary is not so good and you are a male"
-# If the conditions of 'if' and all 'elsif' are false, then only the statement corresponding to else(i.e. puts "Enter valid input") will be executed.
 else
     puts "Enter valid input"
 end
